@@ -76,5 +76,8 @@ body {
 }
 
 .sections {
-	
+	color: #b8b8b8;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: 600;
 }
