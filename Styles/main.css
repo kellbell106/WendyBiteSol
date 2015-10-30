@@ -17,7 +17,7 @@ body {
 
 /* styles for .nav block */
 
-.nav { /* this is a  block */
+.nav { 
 	padding: 30px 0;
 	border-bottom: 2px solid #7a7a7a;
 	text-align: center;
@@ -30,9 +30,9 @@ body {
 
 .nav__link { /* this is an element of the nav block */
 	font-family: helvetica;
-	font-size: 18px;
-	font-weight: 550;
-	color: rgb(50,255,150);
+	font-size: 16px;
+	font-weight: 600;
+	color: #32D195;
 	padding: 0 20px;
 	border-right: 1px solid #7a7a7a;
 	display: inline-block;
@@ -50,13 +50,13 @@ body {
 	pointer-events: none;
 }
 
-/* styles for .content-bookend */
+/* styles for .header */
 
-.content-bookend {
+.header {
 	padding-top: 20px;
 }
 
-.content-bookend__title {
+.header__title {
 	color: white;
 	font-size: 56px;
 	font-style: italic;
@@ -64,20 +64,70 @@ body {
 	margin: 0;
 }
 
-.resume_title {
+/* styles for .resume */
+
+.resume__title {
 	color: white;
 	font-family: helvetica;
 	font-size: 20px;
 	font-weight: 600;
+	padding-top: 20px
 }
 
-.resume_content {
+.resume__content {
 	color: white;
 }
 
-.sections {
+/* styles for .category */
+
+
+.category {
 	color: #b8b8b8;
 	font-family: helvetica;
 	font-size: 14px;
 	font-weight: 600;
+	letter-spacing: 2px;
 }
+
+/* styles for .bullets__content */
+
+.bullets__content {
+	color: #b8b8b8;
+	font-size: 15px;
+	font-weight: 580;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bullets__content--title {
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: bold;
+}
+
+.bullets__content--place {
+	color: white;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: 550;
+}
+
+.bullets__content--time {
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+.bullets__content--description {
+}
+
+
+
+
+
+
+
+
+
+
