@@ -91,6 +91,7 @@ body {
 
 /* styles for .bullets__content */
 
+
 .bullets__content {
 	color: #b8b8b8;
 	font-size: 15px;
@@ -119,7 +120,8 @@ body {
 	font-size: 12px;
 }
 
-.bullets__content--description {
+p.bullets__content--description {
+	margin: 0;
 }
 
 
